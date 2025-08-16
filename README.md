@@ -4,9 +4,7 @@ This is the repository for my personal portfolio website, designed to showcase m
 
 ### ✨ [**Live Demo**](https://shivan-rawat-portfolio.netlify.app/) ✨
 
-![Portfolio Screenshot](https://placehold.co/800x400/0a192f/64ffda?text=Add+Your+Screenshot+Here)
 
-*(To add a screenshot, take a picture of your live website and upload it to your GitHub repository, then replace the link above.)*
 
 ---
 
