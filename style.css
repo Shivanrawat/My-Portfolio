@@ -64,3 +64,11 @@ body {
 .skill-item:hover .tailwind-icon { filter: drop-shadow(0 0 8px #06B6D4); }
 .skill-item:hover .vscode-icon { filter: drop-shadow(0 0 8px #007acc); }
 .skill-item:hover .github-icon { filter: drop-shadow(0 0 8px #ffffff); }
+
+/* New Icons Glow Effects */
+.skill-item:hover .ts-icon { filter: drop-shadow(0 0 8px #3178C6); }
+.skill-item:hover .python-icon { filter: drop-shadow(0 0 8px #FFD343); }
+.skill-item:hover .postgres-icon { filter: drop-shadow(0 0 8px #336791); }
+.skill-item:hover .aws-icon { filter: drop-shadow(0 0 8px #FF9900); }
+.skill-item:hover .docker-icon { filter: drop-shadow(0 0 8px #2496ED); }
+.skill-item:hover .git-icon { filter: drop-shadow(0 0 8px #F05032); }
