@@ -5,28 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shivan Kumar Rawat | Web Developer</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     
-    <!-- ScrollReveal.js for animations -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body class="bg-navy">
 
-    <!-- Header & Navigation -->
     <header id="header" class="bg-navy/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-neon">SR</a>
             <div class="hidden md:flex space-x-8 items-center text-sm">
                 <a href="#about" class="hover:text-neon transition-colors duration-300">About</a>
+                <a href="#experience" class="hover:text-neon transition-colors duration-300">Experience</a>
                 <a href="#projects" class="hover:text-neon transition-colors duration-300">Projects</a>
                 <a href="#skills" class="hover:text-neon transition-colors duration-300">Skills</a>
                 <a href="#contact" class="hover:text-neon transition-colors duration-300">Contact</a>
@@ -38,18 +34,17 @@
                 </svg>
             </button>
         </nav>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-light-navy">
             <a href="#about" class="block text-center py-3 hover:bg-navy">About</a>
+            <a href="#experience" class="block text-center py-3 hover:bg-navy">Experience</a>
             <a href="#projects" class="block text-center py-3 hover:bg-navy">Projects</a>
             <a href="#skills" class="block text-center py-3 hover:bg-navy">Skills</a>
             <a href="#contact" class="block text-center py-3 hover:bg-navy">Contact</a>
-            <a href="https://github.com/Shivanrawat/Resume/blob/main/Shivan's%20Resume.pdf" target="_blank" class="block text-center py-4 border-t border-gray-700 text-neon">Resume</a>
+            <a href="https://drive.google.com/file/d/1URAyVa6lI3OMSvHc7vHzLvbVobpD2oLW/view?usp=sharing" target="_blank" class="block text-center py-4 border-t border-gray-700 text-neon">Resume</a>
         </div>
     </header>
 
     <main class="container mx-auto px-6 pt-24">
-        <!-- Hero Section -->
         <section id="hero" class="min-h-[75vh] flex flex-col justify-center reveal">
             <p class="text-neon text-lg mb-4">Hi, my name is</p>
             <h1 class="text-4xl md:text-7xl font-bold text-gray-200">Shivan Kumar Rawat.</h1>
@@ -64,7 +59,6 @@
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="py-20 reveal">
             <h2 class="text-3xl font-bold mb-8 text-gray-200 flex items-center">
                 <span class="text-neon mr-3">01.</span> About Me
@@ -85,9 +79,9 @@
                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>JavaScript (ES6+)</li>
                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>React.js</li>
                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>Node.js & Express</li>
-                        <li class="flex items-center"><span class="text-neon mr-2">▹</span>MongoDB</li>
+                        <li class="flex items-center"><span class="text-neon mr-2">▹</span>MongoDB & PostgreSQL</li>
                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>Java & DSA</li>
-                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>RESTful APIs</li>
+                         <li class="flex items-center"><span class="text-neon mr-2">▹</span>TypeScript</li>
                     </ul>
                 </div>
                 <div class="md:col-span-2 flex justify-center items-start">
@@ -102,14 +96,59 @@
             </div>
         </section>
 
-        <!-- Projects Timeline Section -->
+        <section id="experience" class="py-20 reveal">
+            <h2 class="text-3xl font-bold mb-12 text-gray-200 flex items-center">
+                <span class="text-neon mr-3">02.</span> Experience
+                <span class="flex-grow h-px bg-gray-700 ml-4"></span>
+            </h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative pl-8 border-l-2 border-gray-700 space-y-12">
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-2 border-neon bg-navy"></span>
+                        <h3 class="text-xl font-bold text-gray-200">Web Developer Intern</h3>
+                        <p class="text-neon font-medium mb-1">Future Interns</p>
+                        <p class="text-sm text-gray-400 mb-4">Aug 2025 - Sep 2025</p>
+                        <ul class="space-y-2 text-gray-400 list-disc ml-4">
+                            <li>Built a Travel website optimized for performance and scalability with <strong>AWS S3</strong> integration for efficient image hosting.</li>
+                            <li>Implemented secure user authentication and data authorization using <strong>Passport.js</strong>.</li>
+                            <li>Developed a mini e-commerce platform featuring product listings, a shopping cart, and checkout simulation.</li>
+                            <li>Collaborated on building responsive UI components using modern frontend technologies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="projects" class="py-20 reveal">
             <h2 class="text-3xl font-bold mb-12 text-gray-200 flex items-center">
-                <span class="text-neon mr-3">02.</span> My Projects
+                <span class="text-neon mr-3">03.</span> My Projects
                 <span class="flex-grow h-px bg-gray-700 ml-4"></span>
             </h2>
             <div class="relative">
-                <!-- Project 1: Wanderlust -->
+                <div class="timeline-item pl-12 pb-12 reveal">
+                    <div class="timeline-dot"></div>
+                    <p class="text-sm text-neon mb-1">Full-Stack Project</p>
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-xl font-bold text-gray-200">Sweet-Shop Manager</h3>
+                        <a href="https://github.com/Shivanrawat" target="_blank" class="ml-4 text-gray-400 hover:text-neon transition-colors">
+                            <svg class="w-6 h-6" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                        </a>
+                    </div>
+                    <div class="bg-light-navy p-6 rounded-lg shadow-lg">
+                        <p class="text-gray-400 mb-4">
+                            Developed a full-stack e-commerce application using the PERN stack with TypeScript, ensuring strict type safety. Features a robust RESTful API, relational database schema, and a dedicated admin interface for real-time inventory management.
+                        </p>
+                        <ul class="flex flex-wrap gap-2 text-sm text-gray-400 mb-4">
+                            <li class="bg-navy px-3 py-1 rounded-full">TypeScript</li>
+                            <li class="bg-navy px-3 py-1 rounded-full">React.js</li>
+                            <li class="bg-navy px-3 py-1 rounded-full">Node.js</li>
+                            <li class="bg-navy px-3 py-1 rounded-full">PostgreSQL</li>
+                            <li class="bg-navy px-3 py-1 rounded-full">Drizzle ORM</li>
+                            <li class="bg-navy px-3 py-1 rounded-full">Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="timeline-item pl-12 pb-12 reveal">
                     <div class="timeline-dot"></div>
                     <p class="text-sm text-neon mb-1">Full-Stack Project</p>
@@ -130,12 +169,10 @@
                             <li class="bg-navy px-3 py-1 rounded-full">EJS</li>
                             <li class="bg-navy px-3 py-1 rounded-full">Passport.js</li>
                             <li class="bg-navy px-3 py-1 rounded-full">Cloudinary</li>
-                            <li class="bg-navy px-3 py-1 rounded-full">Mapbox API</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Project 2: Weather App -->
                 <div class="timeline-item pl-12 pb-12 reveal">
                     <div class="timeline-dot"></div>
                     <p class="text-sm text-neon mb-1">Front-End Project</p>
@@ -158,7 +195,6 @@
                     </div>
                 </div>
 
-                <!-- Project 3: Personal Portfolio -->
                 <div class="timeline-item pl-12 pb-12 reveal">
                     <div class="timeline-dot"></div>
                     <p class="text-sm text-neon mb-1">Front-End Project</p>
@@ -182,13 +218,11 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="py-20 text-center reveal">
             <h2 class="text-3xl font-bold mb-16 text-gray-200 flex items-center justify-center">
-                <span class="text-neon mr-3">03.</span> My Tech Stack
+                <span class="text-neon mr-3">04.</span> My Tech Stack
             </h2>
             <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-y-12 gap-x-8">
-                <!-- Skill Icons -->
                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
                     <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" class="w-16 h-16 java-icon"/>
                     <p class="text-gray-300 transition-colors duration-300">Java</p>
@@ -200,6 +234,14 @@
                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
                     <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="JavaScript" class="w-16 h-16 js-icon"/>
                     <p class="text-gray-300 transition-colors duration-300">JavaScript</p>
+                </div>
+                <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescript-icon.svg" alt="TypeScript" class="w-16 h-16 ts-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">TypeScript</p>
+                </div>
+                <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" class="w-16 h-16 python-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">Python</p>
                 </div>
                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
                     <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="React" class="w-16 h-16 react-icon"/>
@@ -218,6 +260,22 @@
                     <p class="text-gray-300 transition-colors duration-300">MongoDB</p>
                 </div>
                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" class="w-16 h-16 postgres-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">PostgreSQL</p>
+                </div>
+                <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="AWS" class="w-16 h-16 aws-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">AWS</p>
+                </div>
+                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker" class="w-16 h-16 docker-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">Docker</p>
+                </div>
+                 <div class="skill-item flex flex-col items-center justify-center space-y-3">
+                    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" class="w-16 h-16 git-icon"/>
+                    <p class="text-gray-300 transition-colors duration-300">Git</p>
+                </div>
+                <div class="skill-item flex flex-col items-center justify-center space-y-3">
                     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" class="w-16 h-16 tailwind-icon"/>
                     <p class="text-gray-300 transition-colors duration-300">Tailwind CSS</p>
                 </div>
@@ -233,7 +291,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer id="contact" class="py-16 text-center reveal">
         <h2 class="text-3xl font-bold mb-4 text-gray-200">Get In Touch</h2>
         <p class="max-w-xl mx-auto text-gray-400 mb-8">
@@ -253,11 +310,6 @@
         <p class="text-gray-500 text-xs mt-12">Designed & Built by Shivan Kumar Rawat</p>
     </footer>
 
-    <!-- Custom JavaScript -->
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
