@@ -71,4 +71,5 @@ body {
 .skill-item:hover .postgres-icon { filter: drop-shadow(0 0 8px #336791); }
 .skill-item:hover .aws-icon { filter: drop-shadow(0 0 8px #FF9900); }
 .skill-item:hover .docker-icon { filter: drop-shadow(0 0 8px #2496ED); }
+.skill-item:hover .kubernetes-icon { filter: drop-shadow(0 0 8px #326CE5); }
 .skill-item:hover .git-icon { filter: drop-shadow(0 0 8px #F05032); }
