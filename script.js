@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sr.reveal('#hero');
     sr.reveal('#about', { delay: 300 });
-    // Added Experience section reveal
     sr.reveal('#experience', { delay: 300 });
     sr.reveal('#projects', { delay: 300 });
     sr.reveal('.timeline-item', { interval: 200 });
